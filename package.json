@@ -1,0 +1,30 @@
+{
+  "name": "daind",
+  "version": "1.0.0",
+  "description": "no",
+  "main": "index.js",
+  "scripts": {
+    "test": "no"
+  },
+  "repository": {
+    "type": "git",
+    "url": "no"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-livereload": "^3.8.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "react": "^15.3.2"
+  },
+  "dependencies": {
+    "gulp-sourcemaps": "^1.6.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
+}
