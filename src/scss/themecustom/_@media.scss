@@ -1,0 +1,56 @@
+@media screen and (min-width: $screen-md-min){
+  nav.navbar-daind div.right ul{float: right}
+  nav.navbar-daind div.left{padding-top:40px}
+}
+@media screen and (max-width: $screen-md-min){
+  .navbar-nav{
+    margin:0 auto;
+    float: none;
+  }
+
+  .skill-right{
+    margin-top:70px;
+    padding-top: 30px;
+    border-top: 1px solid #fff;
+  }
+  .icon-fix{
+    display: block;
+  }
+  .icon-right{
+    display: none;
+  }
+  .my-skills{
+    margin: 0;
+  }
+  .input-skill{
+    margin-left: -8px;
+    margin-top: 15px;
+  }
+  nav.navbar-daind div.left {
+    border-bottom: 1px solid #d0d0d0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  nav.navbar-daind div.right {
+    ul.nav{
+      max-width: 380px;
+      margin: 0 auto;
+    }
+    ul.nav li.nav-item a.nav-link{
+      padding:15px;
+    }
+  }
+}
+@media screen and (max-width: 380px){
+  nav.navbar-daind div.right ul.nav li.nav-item a.nav-link{
+    margin: 0;
+  }
+}
+@media screen and (max-width: 330px){
+  .avatar .location p{
+    font-size: 14.5px;
+  }
+  .avatar .location a > span {
+    font-size: 9px;
+  }
+}

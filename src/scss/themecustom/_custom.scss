@@ -1,0 +1,234 @@
+a:hover, a:focus{ text-decoration: none; opacity: 0.7;}
+div.h-top div.row {
+  nav.navbar-daind div.right ul li a{
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    font-size:16.5px;
+    line-height: 19px;
+    padding: 45px 10px 10px 10px;
+    margin: 0 10px 0px 10px;
+    color: #404040;
+  }
+  nav.navbar-daind div.right ul li{
+    float: left;
+  }
+  nav.navbar-daind div.right ul li a:hover,:focus{
+    background-color: #d45e5e;
+    color: #fff;
+  }
+  nav.navbar-daind div.left a{
+    font-family: 'Oswald', sans-serif;
+    color: #404040;
+  }
+  nav.navbar-daind div.left a:hover,:focus{
+    color: #d45e5e;
+  }
+  nav.navbar-daind div.left a p{
+    font-size: 26.5px;
+    margin-bottom: 0px;
+    line-height: 25px;
+  }
+  nav.navbar-daind div.left a span{
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: bold;
+    line-height: 15px;
+    padding-left: 3px;
+  }
+}
+div.h-main{
+  div.h-m-top{
+    margin-bottom: 20px;
+  }
+  div.h-m-top p{text-align: center;}
+  div.h-m-main{
+    max-width: 510px;
+    margin: 0 auto;
+  }
+  div.h-m-main p{
+    font-family: Cambria;
+    font-size: 22.5px;
+    line-height: 36px;
+    text-align: center
+  }
+  div.h-m-bottom{
+    margin-top: 20px;
+    position: relative;
+  }
+  div.h-m-bottom p{
+    text-align: center;
+  }
+  div.h-m-bottom::before{
+    content: "";
+    width: 80%;
+    position: absolute;
+    border: 1px solid #e9e3e3;
+    top: 3px;
+    left: 10%;
+  }
+}
+.content{
+  padding: 20px 0 0 0;
+  >p{
+    font-size: 22.5px;
+    font-family: Cambria;
+  }
+  div.row div.gallery div a.thumbnail:hover,:focus{
+    box-shadow: 0 0 10px #404040;
+    opacity: 1;
+  }
+  div.row div.gallery div a.thumbnail{
+    padding: 0px;
+    border : 0px;
+    border-radius: 0px;
+    border: 4px solid #fff;
+  }
+  div.row div.gallery div a.thumbnail img{
+    width: 100%
+  }
+}
+.card {
+  position: relative;
+  text-align: center;
+  padding: 0;
+  background-color: #d45e5e;
+  padding-bottom:40px;
+
+}
+.card .header-bg {
+  /* This stretches the canvas across the entire hero unit */
+  position: absolute;
+  top: -1px;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background-color:#fff;
+  /* This positions the canvas under the text */
+  z-index: 1;
+}
+.avatar {
+  text-align: left;
+  position: relative;
+  margin-top: 15px;
+  z-index: 100;
+}
+.avatar .location{
+  position: absolute;
+  top:80px;
+  left: 160px;
+  color: #fff;
+}
+.avatar .location a p{
+  margin: 0px;
+  font-family: Cambria;
+  font-size: 18.5px;
+  line-height: 36px;
+}
+.avatar .location a{
+  color: #fff;
+  font-size: 11px;
+  >span{
+    font-family: 'PT Sans', sans-serif;
+  }
+}
+.avatar .icon-right{
+  float: right;
+  margin-top: 85px;
+  >span{
+    >a{
+      font-size: 48px;
+      color: #fff;
+    }
+  }
+  >span a.icon-twitter{
+    margin-right: 20px;
+  }
+}
+.avatar a.x:hover,a.x:focus{
+  opacity: 1;
+}
+.avatar img {
+  width: 135px;
+  height: 140px;
+  border: 5px solid #fff;
+  &:hover,:focus{
+    box-shadow: 0 0 10px #404040;
+  }
+}
+.content{
+  text-align: left;
+  font-family: 'PT Sans', sans-serif;
+  color: #fff;
+}
+.skill-right{
+  margin-top: 170px;
+}
+.my-skills{
+  >p{
+    >a{
+      font-family: Cambria;
+      font-size: 20.5px;
+      color: #fff;
+    }
+  }
+  text-align: left;
+  margin-left:50px;
+}
+.input-skill{
+  margin-left: 50px;
+  width: 230px;
+  >.all{
+    padding-left: 25px;
+    position:relative;
+    >span{
+      position:absolute;
+      left: 6px;
+      bottom: -5.5px;
+      font-size: 16.5px;
+      color: #fff;
+      font-family: 'PT Sans', sans-serif;
+    }
+    >.progress{
+      height: 10px;
+      border-radius: 0px;
+      margin-bottom: 15px;
+      background-color: #e27878;
+    }
+  }
+
+}
+.icon-fix{
+  display: none;
+  margin: 30px 0px 20px 0px;
+  color: #fff;
+  >div{
+    text-align: left;
+    position:relative;
+    >a{
+      color: #fff;
+      >i{
+        font-size: 45px;
+        position:absolute;
+      }
+      >span{
+        font-size: 15px;
+        position:absolute;
+        top: 15px;
+        left: 70px;
+      }
+    }
+  }
+}
+.gallery
+{
+  display: inline-block;
+  margin-top: 20px;
+}
+.gallery
+{
+  display: inline-block;
+  margin-top: 20px;
+}
+.progress-bar-daind{
+  background-color: #404040;
+}
